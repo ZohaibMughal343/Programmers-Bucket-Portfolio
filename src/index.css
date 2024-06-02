@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-weight-800 {
+    font-weight: 800;
+}
+.link {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-weight: 900;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.link:hover {
+    -webkit-text-stroke: 1px rgb(221, 147, 11);
+    text-shadow: 1px 1px 1px rgb(221, 147, 11), 0 0 20px rgb(221, 147, 11), 0 0 3px rgb(221, 147, 11);
+    transform: translateX(7%);
+    color: black;
+    cursor: pointer;
+}
+
+.link:active {
+    color: white;
+    cursor: pointer;
+}
+select:focus~.place,
+select:valid~.place {
+    top: -25px;
+}
+
+.place {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Inter;
+    transition: 0.2s ease;
+}
+
+input:focus~.place,
+input:valid~.place {
+    top: -25px;
+}
+
+textarea:focus~.place,
+textarea:valid~.place {
+    top: -25px;
+}
+@media screen and (min-width: 1920px) {
+    select:focus~.place,
+    select:valid~.place {
+        top: -35px;
+    }
+    
+    .place {
+        top: 5px;
+        left: 0;
+    }
+    
+    input:focus~.place,
+    input:valid~.place {
+        top: -35px;
+    }
+    
+    textarea:focus~.place,
+    textarea:valid~.place {
+        top: -35px;
+    }
+    }

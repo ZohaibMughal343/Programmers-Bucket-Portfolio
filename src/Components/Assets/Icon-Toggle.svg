@@ -1,0 +1,5 @@
+<svg className='xl:h-[85px] xl:w-[85px]' width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24" cy="24.5588" r="23" fill="white" stroke="#111111" stroke-width="2"/>
+<path d="M15 19.5588H33" stroke="#111111" stroke-width="2"/>
+<path d="M15 29.5588H33" stroke="#111111" stroke-width="2"/>
+</svg>
